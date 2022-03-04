@@ -1,0 +1,1 @@
+const correctAnswers = ['C', 'B', 'A', 'B'];
