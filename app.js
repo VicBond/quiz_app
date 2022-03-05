@@ -16,6 +16,6 @@ form.addEventListener('submit', e => {
     }
   });
   // show total score
-  showScore.querySelector('span').textContent = `${score}`;
-
+  showScore.querySelector('span').textContent = `${score}%`;
+  showScore.classList.replace('d-none', 'd-done');
 });
