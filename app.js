@@ -19,4 +19,10 @@ form.addEventListener('submit', e => {
   scrollTo(0, 0); //scroll to the top
   showScore.querySelector('span').textContent = `${score}%`;
   showScore.classList.replace('d-none', 'd-done');
+
+  let output = 0;
+  const timer = setInterval(() => {
+    
+  })
 });
+
